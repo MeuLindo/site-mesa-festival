@@ -1,6 +1,43 @@
-.splash-rosa{
-  background-image: url("../imagens/recursos/bg-splash.png");,
-  background-color: red;
-  width: 300 px;
-  height: 300 px;
+@font-face {
+    font-family: Gotham;
+    src:local("A:\Dia do Arauto\Mesa Festival\mesa\site-mesa-festival\fonts\Gotham\GOTHAM-BLACK.TTF");
+}
+html{
+  font-weight: bold;
+}
+
+body{
+  background-image: url("../imagens/recursos/bg-principal.png");
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner{
+  background-image: url("../imagens/recursos/bg-padrao-galaxia.png");
+}
+.bg-invertido{
+  background-image: url("../imagens/recursos/bg-padrao-galaxia.png");
+  filter: invert(1);
+}
+.bold{
+  font-weight: bold;
+}
+.mesa{
+  text-transform: lowercase;
+  font-size: 5em;
+  font-weight: bold;
+
+}
+.festival{
+  font-weight: bold;
+  font-size: 2.8em;
+}
+.informacoes {
+  font-size: 2em;
+}
+
+.faixa{
+  height: 205px;
+  background-image: url("../imagens/recursos/data.png");
 }
