@@ -2,24 +2,28 @@
     font-family: Gotham;
     src:local("A:\Dia do Arauto\Mesa Festival\mesa\site-mesa-festival\fonts\Gotham\GOTHAM-BLACK.TTF");
 }
-html{
-  font-weight: bold;
-}
 
 body{
-  background-image: url("../imagens/recursos/bg-principal.png");
+  background-image: url("../imagens/recursos/bg-padrao-galaxia.jpg");
   color: white;
   text-transform: uppercase;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner{
-  background-image: url("../imagens/recursos/bg-padrao-galaxia.png");
+  background-image: url("../imagens/recursos/bg-h1.png");
+}
+.cabecalho{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .bg-invertido{
-  background-image: url("../imagens/recursos/bg-padrao-galaxia.png");
+  background-image: url("../imagens/recursos/bg-h1.png");
   filter: invert(1);
 }
+
 .bold{
   font-weight: bold;
 }
@@ -33,10 +37,17 @@ body{
   font-weight: bold;
   font-size: 2.8em;
 }
-.informacoes {
-  font-size: 2em;
+
+h4, h5{
+  font-weight: bold;
 }
 
+.informacoes {
+  font-size: 2.3em;
+}
+.disclamer{
+  color: #00dccb;
+}
 .faixa{
   height: 205px;
   background-image: url("../imagens/recursos/data.png");
