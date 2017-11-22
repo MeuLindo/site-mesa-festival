@@ -1,17 +1,14 @@
-html{
-  background-image: url("../imagens/recursos/bg-padrao-galaxia.png");
-}
+
 
 body{
 
-      background-image: url("../imagens/recursos/bg-principal.png");
+      background-image: url("../imagens/recursos/bg-padrao-galaxia.jpg");
       color: white ;
       font-family: Gotham;
       text-transform: uppercase;
       text-align: center;
-      background-size:cover;
-      background-repeat: no-repeat;
-      background-position: center;
+
+
 
 
 }
@@ -25,91 +22,10 @@ ul{
     src:local("A:\Dia do Arauto\Mesa Festival\mesa\site-mesa-festival\fonts\Gotham\GOTHAM-BLACK.TTF");
 }
 
-.espacamento{
-  margin-top: 30px;
-}
+mesa{
+  
+  width: 100%;
+  height: 100px;
+  justify-content:center;
 
-.flex{
-  display: flex;
-  width: 1100px;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-
-.flex-1{
-  flex: 1;
-}
-
-.banner h1{
-  text-transform: lowercase;
-  font-size: 80px;
-  text-align: center;
-  margin: 0;
-  line-height: 0.9
-
-}
-.mesa{
-  font-size: 160px;
-}
-.capitalize {
-  text-transform: uppercase;
-}
-
-.banner{
-  background-image: url("../imagens/recursos/bg-banner.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 460px;
-  height: 300px;
-  position: relative;
-
-}
-
-.banner .flex{
-  background-color: white;
-  color: black;
-  position: absolute;
-  bottom: 0px;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.banner .flex h3{
-  flex: 1;
-
-}
-
-.splash-rosa{
-  background-image: url("../imagens/recursos/bg-splash.png");,
-  display: inline-block;
-  background-size: 200px;
-  background-repeat: no-repeat;
-  padding: 25px;
-  width: 150px;
-  z-index: 1;
-  position: relative;
-  margin-bottom: -100px;
-  display: table;
-
-}
-
-
-.splash-rosa h3{
-
-  display: table-cell;
-  vertical-align: center;
-
-}
-
-.flex-1 img{
-  margin: 0 -10px;
-
-}
-
-.segunda-linha{
-  margin-bottom: 0px;
 }
