@@ -2,7 +2,9 @@
     font-family: Gotham;
     src:local("A:\Dia do Arauto\Mesa Festival\mesa\site-mesa-festival\fonts\Gotham\GOTHAM-BLACK.TTF");
 }
-
+a{
+  color: white;
+}
 body{
   background-image:   url("../imagens/recursos/bg-header.png") ,url("../imagens/recursos/bg-h1.png") ;
   background-size:  1920px,400px;
